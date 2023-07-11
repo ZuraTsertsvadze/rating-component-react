@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+.number-cont{
+  display: flex;
+  justify-content: space-between;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  background-color: #121417;
+  color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+ 
+}
+
+
+.app{
+  background-color: #1f262e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 500px;
+
+}
+
+.number{
+
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.active-number{
+  background-color: orange;
+  width: 50px;
+  height: 50px;
+  border: 1px solid black;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  color: white;
+}
+
+
+.button{
+  background-color: orange;
+  width: 100px;
+  height: 40px;
+  border-radius: 10px;
+border: none;
+
+
+}
+
+
+.number-cont{
+display: flex;
+column-gap: 10px;
+
+}
+
+
+.result{
+  
+  width: 500px;
+  height: 200px;
+  background-color: #1f262e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
 }
